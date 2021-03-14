@@ -1,0 +1,1 @@
+window.location = document.querySelector('.no-click').src;

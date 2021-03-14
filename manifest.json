@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Lightshot Image",
+    "description": "Get image from prnt.sc",
+    "version": "1.0.0",
+    "content_scripts": [
+        {
+             "matches": [ "*://prnt.sc/*" ],
+             "js": [ "script.js" ]
+        }
+    ],
+    "icons": {
+      "16": "/images/icon-16_x_16.png",
+      "32": "/images/icon-32_x_32.png",
+      "48": "/images/icon-48_x_48.png",
+      "128": "/images/icon-128_x_128.png"
+    }
+}
